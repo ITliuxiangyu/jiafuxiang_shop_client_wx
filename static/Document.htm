@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- saved from url=(0078)file:///Users/liuxiangyu/Desktop/%E8%BD%A6%E7%89%8C%E8%AF%86%E5%88%AB/aaa.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .content{
+            height: 100px;
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="content">
+
+        时间连接埃里克森的
+
+    </div>
+
+    <button class="my_btn">按钮</button>
+
+    <button class="my_btn2">按钮2</button>
+    
+
+
+
+<script>
+    var c = document.getElementsByClassName("my_btn2")[0]
+    console.log(c)
+
+    var my_btn = document.getElementsByClassName('my_btn')[0]
+    console.log(my_btn)
+
+    c.onclick = function () {
+        var b = document.getElementsByClassName('content')[0]
+        b.style.border = '0px'
+    }
+
+    my_btn.onclick = function () {
+        // var b = document.getElementsByClassName('content')[0]
+        // b.style.height = "200px"
+        // b.style.border = '1px solid red'
+
+        // window.location.href = "http://www.sina.com"
+        console.log(window)
+    }
+
+
+
+
+
+    
+
+
+
+    
+
+    // document.onkeydown = function (event) {
+
+    //     if (event.code == "Space") {
+    //         console.log('展厅播放')
+    //     } else {
+            
+    //     }
+    // }
+</script>
+
+</body></html>
