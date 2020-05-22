@@ -1,0 +1,2 @@
+# jiafuxiang_shop_client_wx
+嘉福祥商城前端微信版
